@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--文本背景-->
+<!--selector:实现静态绘图中的事件反馈，通过给不同的事件设置不同的图像，从而在程序中根据用户输入返回不同的效果-->
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--单击时背景颜色-->
+    <item android:drawable="@color/tv_click" android:state_pressed="true"></item>
+    <!--默认背景颜色-->
+    <item android:drawable="@android:color/transparent"></item>
+
+</selector>

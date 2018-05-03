@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--白色按钮背景-->
+<!--selector:实现静态绘图中的事件反馈，通过给不同的事件设置不同的图像，从而在程序中根据用户输入返回不同的效果-->
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--单击时-->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <!-- 填充的颜色 -->
+            <solid android:color="#33444444" />
+            <!-- 设置按钮的四个角为弧形 -->
+            <!-- android:radius 弧形的半径 -->
+            <corners android:radius="5dip" />
+            <!-- padding：Button里面的文字与Button边界的间隔 -->
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <!-- 填充的颜色 -->
+            <solid android:color="#FFFFFF" />
+            <!-- 设置按钮的四个角为弧形 -->
+            <!-- android:radius 弧形的半径 -->
+            <corners android:radius="5dip" />
+            <!-- padding：Button里面的文字与Button边界的间隔 -->
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+        </shape>
+    </item>
+</selector>
